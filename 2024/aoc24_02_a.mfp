@@ -1,0 +1,2251 @@
+{
+    "gui_params": {
+        "display_type": "patch",
+        "export_h": null,
+        "export_w": null,
+        "export_x": null,
+        "export_y": null,
+        "height": 20,
+        "layers": [
+            [
+                "Layer 0",
+                "__patch__"
+            ]
+        ],
+        "name": "aoc24_02_a",
+        "num_inlets": 1,
+        "num_outlets": 1,
+        "obj_id": 0,
+        "top_level": true,
+        "width": 0
+    },
+    "hot_inlets": [
+        0
+    ],
+    "objects": {
+        "1": {
+            "connections": [
+                [
+                    [
+                        11,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        3,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 20,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": "EOF",
+                "obj_name": "processor_002",
+                "obj_state": 3,
+                "obj_type": "case",
+                "position_x": 257.0,
+                "position_y": 78.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": "EOF",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_002",
+            "osc_methods": [],
+            "properties": {},
+            "type": "case"
+        },
+        "10": {
+            "connections": [
+                [
+                    [
+                        37,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 20,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": "0",
+                "obj_name": "processor_011",
+                "obj_state": 3,
+                "obj_type": "var",
+                "position_x": 151.0,
+                "position_y": 362.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": "0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_011",
+            "osc_methods": [],
+            "properties": {},
+            "type": "var"
+        },
+        "11": {
+            "connections": [
+                [
+                    [
+                        10,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "debug": false,
+                "display_type": "message",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 12,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 25,
+                "no_export": false,
+                "obj_args": "Bang",
+                "obj_name": "message_001",
+                "obj_state": 3,
+                "obj_type": "message",
+                "position_x": 146.0,
+                "position_y": 321.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": true,
+                "width": 25
+            },
+            "initargs": "Bang",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "message_001",
+            "osc_methods": [],
+            "properties": {},
+            "type": "message"
+        },
+        "12": {
+            "connections": [
+                [
+                    [
+                        13,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 20,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": "0",
+                "obj_name": "processor_012",
+                "obj_state": 3,
+                "obj_type": "var",
+                "position_x": 209.0,
+                "position_y": 362.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": "0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_012",
+            "osc_methods": [],
+            "properties": {},
+            "type": "var"
+        },
+        "13": {
+            "connections": [
+                [
+                    [
+                        12,
+                        1
+                    ],
+                    [
+                        10,
+                        1
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 20,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": "1",
+                "obj_name": "processor_013",
+                "obj_state": 3,
+                "obj_type": "+",
+                "position_x": 207.0,
+                "position_y": 407.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": "1",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_013",
+            "osc_methods": [],
+            "properties": {},
+            "type": "+"
+        },
+        "14": {
+            "connections": [
+                [
+                    [
+                        12,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "debug": false,
+                "display_type": "message",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 12,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 25,
+                "no_export": false,
+                "obj_args": "Bang",
+                "obj_name": "message_002",
+                "obj_state": 3,
+                "obj_type": "message",
+                "position_x": 202.0,
+                "position_y": 324.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": true,
+                "width": 25
+            },
+            "initargs": "Bang",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "message_002",
+            "osc_methods": [],
+            "properties": {},
+            "type": "message"
+        },
+        "15": {
+            "connections": [
+                [
+                    [
+                        20,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 20,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": null,
+                "obj_name": "processor_014",
+                "obj_state": 3,
+                "obj_type": "for",
+                "position_x": 730.0,
+                "position_y": 120.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_014",
+            "osc_methods": [],
+            "properties": {},
+            "type": "for"
+        },
+        "16": {
+            "connections": [
+                [
+                    [
+                        17,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        21,
+                        0
+                    ],
+                    [
+                        17,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 20,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": "None",
+                "obj_name": "processor_017",
+                "obj_state": 3,
+                "obj_type": "==:",
+                "position_x": 732.0,
+                "position_y": 292.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": "None",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_017",
+            "osc_methods": [],
+            "properties": {},
+            "type": "==:"
+        },
+        "17": {
+            "connections": [
+                [
+                    [
+                        18,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "debug": false,
+                "display_type": "message",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 12,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 25,
+                "no_export": false,
+                "obj_args": "Bang",
+                "obj_name": "message_004",
+                "obj_state": 3,
+                "obj_type": "message",
+                "position_x": 754.0,
+                "position_y": 342.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": true,
+                "width": 25
+            },
+            "initargs": "Bang",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "message_004",
+            "osc_methods": [],
+            "properties": {},
+            "type": "message"
+        },
+        "18": {
+            "connections": [
+                [
+                    [
+                        28,
+                        1
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 20,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": null,
+                "obj_name": "processor_019",
+                "obj_state": 3,
+                "obj_type": "var",
+                "position_x": 828.0,
+                "position_y": 247.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_019",
+            "osc_methods": [],
+            "properties": {},
+            "type": "var"
+        },
+        "19": {
+            "connections": [
+                [
+                    [
+                        28,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "debug": false,
+                "display_type": "message",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 12,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 25,
+                "no_export": false,
+                "obj_args": "Bang",
+                "obj_name": "message_005",
+                "obj_state": 3,
+                "obj_type": "message",
+                "position_x": 725.0,
+                "position_y": 208.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": true,
+                "width": 25
+            },
+            "initargs": "Bang",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "message_005",
+            "osc_methods": [],
+            "properties": {},
+            "type": "message"
+        },
+        "2": {
+            "connections": [
+                [
+                    [
+                        1,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 20,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": "0",
+                "obj_name": "processor_001",
+                "obj_state": 3,
+                "obj_type": "inlet",
+                "position_x": 257.0,
+                "position_y": 32.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": "0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_001",
+            "osc_methods": [],
+            "properties": {},
+            "type": "inlet"
+        },
+        "20": {
+            "connections": [
+                [
+                    [
+                        19,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        18,
+                        1
+                    ]
+                ],
+                [
+                    [
+                        21,
+                        1
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 20,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": "3",
+                "obj_name": "processor_015",
+                "obj_state": 3,
+                "obj_type": "trigger",
+                "position_x": 730.0,
+                "position_y": 166.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": "3",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_015",
+            "osc_methods": [],
+            "properties": {},
+            "type": "trigger"
+        },
+        "21": {
+            "connections": [
+                [
+                    [
+                        22,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 20,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": null,
+                "obj_name": "processor_020",
+                "obj_state": 3,
+                "obj_type": "-",
+                "position_x": 802.0,
+                "position_y": 343.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_020",
+            "osc_methods": [],
+            "properties": {},
+            "type": "-"
+        },
+        "22": {
+            "connections": [
+                [
+                    [
+                        24,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 20,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": null,
+                "obj_name": "processor_021",
+                "obj_state": 3,
+                "obj_type": "abs",
+                "position_x": 803.0,
+                "position_y": 380.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_021",
+            "osc_methods": [],
+            "properties": {},
+            "type": "abs"
+        },
+        "23": {
+            "connections": [
+                [],
+                [
+                    [
+                        26,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 20,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": "3",
+                "obj_name": "processor_023",
+                "obj_state": 3,
+                "obj_type": "<=:",
+                "position_x": 803.0,
+                "position_y": 468.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": "3",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_023",
+            "osc_methods": [],
+            "properties": {},
+            "type": "<=:"
+        },
+        "24": {
+            "connections": [
+                [
+                    [
+                        23,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        26,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 20,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": "1",
+                "obj_name": "processor_022",
+                "obj_state": 3,
+                "obj_type": ">=:",
+                "position_x": 803.0,
+                "position_y": 427.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": "1",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_022",
+            "osc_methods": [],
+            "properties": {},
+            "type": ">=:"
+        },
+        "25": {
+            "connections": [
+                [
+                    [
+                        34,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 20,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": "1",
+                "obj_name": "processor_024",
+                "obj_state": 3,
+                "obj_type": "var",
+                "position_x": 701.0,
+                "position_y": 543.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": "1",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_024",
+            "osc_methods": [],
+            "properties": {},
+            "type": "var"
+        },
+        "26": {
+            "connections": [
+                [
+                    [
+                        25,
+                        1
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "debug": false,
+                "display_type": "message",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 12,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 25,
+                "no_export": false,
+                "obj_args": "0",
+                "obj_name": "message_007",
+                "obj_state": 3,
+                "obj_type": "message",
+                "position_x": 739.0,
+                "position_y": 505.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": true,
+                "width": 25
+            },
+            "initargs": "0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "message_007",
+            "osc_methods": [],
+            "properties": {},
+            "type": "message"
+        },
+        "27": {
+            "connections": [
+                [
+                    [
+                        25,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "debug": false,
+                "display_type": "message",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 12,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 25,
+                "no_export": false,
+                "obj_args": "Bang",
+                "obj_name": "message_008",
+                "obj_state": 3,
+                "obj_type": "message",
+                "position_x": 695.0,
+                "position_y": 504.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": true,
+                "width": 25
+            },
+            "initargs": "Bang",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "message_008",
+            "osc_methods": [],
+            "properties": {},
+            "type": "message"
+        },
+        "28": {
+            "connections": [
+                [
+                    [
+                        16,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 20,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": "None",
+                "obj_name": "processor_016",
+                "obj_state": 3,
+                "obj_type": "var",
+                "position_x": 731.0,
+                "position_y": 248.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": "None",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_016",
+            "osc_methods": [],
+            "properties": {},
+            "type": "var"
+        },
+        "29": {
+            "connections": [
+                [
+                    [
+                        27,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        15,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        30,
+                        0
+                    ],
+                    [
+                        31,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 20,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": "3",
+                "obj_name": "processor_025",
+                "obj_state": 3,
+                "obj_type": "trigger",
+                "position_x": 699.0,
+                "position_y": 78.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": "3",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_025",
+            "osc_methods": [],
+            "properties": {},
+            "type": "trigger"
+        },
+        "3": {
+            "connections": [
+                [
+                    [
+                        4,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 20,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": null,
+                "obj_name": "processor_003",
+                "obj_state": 3,
+                "obj_type": "split",
+                "position_x": 311.0,
+                "position_y": 117.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_003",
+            "osc_methods": [],
+            "properties": {},
+            "type": "split"
+        },
+        "30": {
+            "connections": [
+                [
+                    [
+                        28,
+                        1
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "debug": false,
+                "display_type": "message",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 12,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 25,
+                "no_export": false,
+                "obj_args": "None",
+                "obj_name": "message_009",
+                "obj_state": 3,
+                "obj_type": "message",
+                "position_x": 812.0,
+                "position_y": 167.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": true,
+                "width": 25
+            },
+            "initargs": "None",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "message_009",
+            "osc_methods": [],
+            "properties": {},
+            "type": "message"
+        },
+        "31": {
+            "connections": [
+                [
+                    [
+                        25,
+                        1
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "debug": false,
+                "display_type": "message",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 12,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 25,
+                "no_export": false,
+                "obj_args": "1",
+                "obj_name": "message_010",
+                "obj_state": 3,
+                "obj_type": "message",
+                "position_x": 777.0,
+                "position_y": 505.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": true,
+                "width": 25
+            },
+            "initargs": "1",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "message_010",
+            "osc_methods": [],
+            "properties": {},
+            "type": "message"
+        },
+        "32": {
+            "connections": [
+                [
+                    [
+                        29,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "debug": false,
+                "display_type": "recvvia",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 17.0,
+                "is_export": false,
+                "label_text": "smooth",
+                "layername": "Layer 0",
+                "min_height": 0,
+                "min_width": 0,
+                "no_export": false,
+                "obj_args": "\"smooth\",0",
+                "obj_name": "recvvia_001",
+                "obj_state": 3,
+                "obj_type": "recv",
+                "position_x": 678.0,
+                "position_y": 22.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": false,
+                "width": 50.0
+            },
+            "initargs": "\"smooth\",0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "recvvia_001",
+            "osc_methods": [],
+            "properties": {},
+            "type": "recv"
+        },
+        "33": {
+            "connections": [
+                []
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "debug": false,
+                "display_type": "sendvia",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 17.0,
+                "is_export": false,
+                "label_text": "smooth",
+                "layername": "Layer 0",
+                "min_height": 0,
+                "min_width": 0,
+                "no_export": false,
+                "obj_args": "\"smooth\",0",
+                "obj_name": "sendvia_001",
+                "obj_state": 3,
+                "obj_type": "send",
+                "position_x": 292.0,
+                "position_y": 460.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": false,
+                "width": 50.0
+            },
+            "initargs": "\"smooth\",0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "sendvia_001",
+            "osc_methods": [],
+            "properties": {},
+            "type": "send"
+        },
+        "34": {
+            "connections": [
+                []
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "debug": false,
+                "display_type": "sendvia",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 17.0,
+                "is_export": false,
+                "label_text": "count",
+                "layername": "Layer 0",
+                "min_height": 0,
+                "min_width": 0,
+                "no_export": false,
+                "obj_args": "\"count\",0",
+                "obj_name": "sendvia_002",
+                "obj_state": 3,
+                "obj_type": "send",
+                "position_x": 680.0,
+                "position_y": 589.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": false,
+                "width": 43.0
+            },
+            "initargs": "\"count\",0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "sendvia_002",
+            "osc_methods": [],
+            "properties": {},
+            "type": "send"
+        },
+        "35": {
+            "connections": [
+                [
+                    [
+                        36,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "debug": false,
+                "display_type": "recvvia",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 17.0,
+                "is_export": false,
+                "label_text": "count",
+                "layername": "Layer 0",
+                "min_height": 0,
+                "min_width": 0,
+                "no_export": false,
+                "obj_args": "\"count\",0",
+                "obj_name": "recvvia_002",
+                "obj_state": 3,
+                "obj_type": "recv",
+                "position_x": 190.0,
+                "position_y": 242.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": false,
+                "width": 43.0
+            },
+            "initargs": "\"count\",0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "recvvia_002",
+            "osc_methods": [],
+            "properties": {},
+            "type": "recv"
+        },
+        "36": {
+            "connections": [
+                [
+                    [
+                        14,
+                        0
+                    ]
+                ],
+                []
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 20,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": "1",
+                "obj_name": "processor_028",
+                "obj_state": 3,
+                "obj_type": "==:",
+                "position_x": 206.0,
+                "position_y": 284.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": "1",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_028",
+            "osc_methods": [],
+            "properties": {},
+            "type": "==:"
+        },
+        "37": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 20,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": "0",
+                "obj_name": "processor_029",
+                "obj_state": 3,
+                "obj_type": "outlet",
+                "position_x": 151.0,
+                "position_y": 465.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": "0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_029",
+            "osc_methods": [],
+            "properties": {},
+            "type": "outlet"
+        },
+        "38": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "clickchange": false,
+                "debug": false,
+                "default": "",
+                "display_type": "text",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 21.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "max_width": 600,
+                "min_height": 12,
+                "min_width": 12,
+                "no_export": false,
+                "obj_args": null,
+                "obj_name": "text_001",
+                "obj_state": 3,
+                "obj_type": "text",
+                "position_x": 379.0,
+                "position_y": 115.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": true,
+                "value": "Line is space-sep values",
+                "width": 156.0
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "text_001",
+            "osc_methods": [],
+            "properties": {},
+            "type": "text",
+            "value": "Line is space-sep values"
+        },
+        "39": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "clickchange": false,
+                "debug": false,
+                "default": "",
+                "display_type": "text",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 12,
+                "is_export": false,
+                "layername": "Layer 0",
+                "max_width": 600,
+                "min_height": 12,
+                "min_width": 12,
+                "no_export": false,
+                "obj_args": null,
+                "obj_name": "text_002",
+                "obj_state": 3,
+                "obj_type": "text",
+                "position_x": 469.0,
+                "position_y": 151.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": true,
+                "value": "Convert to array of ints",
+                "width": 12
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "text_002",
+            "osc_methods": [],
+            "properties": {},
+            "type": "text",
+            "value": "Convert to array of ints"
+        },
+        "4": {
+            "connections": [
+                [
+                    [
+                        5,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 20,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": "lambda x: int(x)",
+                "obj_name": "processor_004",
+                "obj_state": 3,
+                "obj_type": "map",
+                "position_x": 311.0,
+                "position_y": 151.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": "lambda x: int(x)",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_004",
+            "osc_methods": [],
+            "properties": {},
+            "type": "map"
+        },
+        "40": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "clickchange": false,
+                "debug": false,
+                "default": "",
+                "display_type": "text",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 37.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "max_width": 600,
+                "min_height": 12,
+                "min_width": 12,
+                "no_export": false,
+                "obj_args": null,
+                "obj_name": "text_003",
+                "obj_state": 3,
+                "obj_type": "text",
+                "position_x": 417.0,
+                "position_y": 252.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": true,
+                "value": "Values must be either sorted <br>\nor reverse sorted",
+                "width": 187.0
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "text_003",
+            "osc_methods": [],
+            "properties": {},
+            "type": "text",
+            "value": "Values must be either sorted <br>\nor reverse sorted"
+        },
+        "41": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "clickchange": false,
+                "debug": false,
+                "default": "",
+                "display_type": "text",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 37.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "max_width": 600,
+                "min_height": 12,
+                "min_width": 12,
+                "no_export": false,
+                "obj_args": null,
+                "obj_name": "text_004",
+                "obj_state": 3,
+                "obj_type": "text",
+                "position_x": 411.0,
+                "position_y": 447.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": true,
+                "value": "Check the ones that are<br>\nfor smoothness",
+                "width": 154.0
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "text_004",
+            "osc_methods": [],
+            "properties": {},
+            "type": "text",
+            "value": "Check the ones that are<br>\nfor smoothness"
+        },
+        "42": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "clickchange": false,
+                "debug": false,
+                "default": "",
+                "display_type": "text",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 12,
+                "is_export": false,
+                "layername": "Layer 0",
+                "max_width": 600,
+                "min_height": 12,
+                "min_width": 12,
+                "no_export": false,
+                "obj_args": null,
+                "obj_name": "text_005",
+                "obj_state": 3,
+                "obj_type": "text",
+                "position_x": 873.0,
+                "position_y": 87.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": true,
+                "value": "This is a simple implementation of <br>\nreduce() to sequentially subtract<br>\nvalues from the predecessor\n\nFor each item,\n\n* set it to be an operand of subtract\n\n* save it for the next iteration\n\n* bang out the previous iteration's value to the subtract \n\nIf the value is None, this is the first item so no subtract",
+                "width": 12
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "text_005",
+            "osc_methods": [],
+            "properties": {},
+            "type": "text",
+            "value": "This is a simple implementation of <br>\nreduce() to sequentially subtract<br>\nvalues from the predecessor\n\nFor each item,\n\n* set it to be an operand of subtract\n\n* save it for the next iteration\n\n* bang out the previous iteration's value to the subtract \n\nIf the value is None, this is the first item so no subtract"
+        },
+        "43": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "clickchange": false,
+                "debug": false,
+                "default": "",
+                "display_type": "text",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 12,
+                "is_export": false,
+                "layername": "Layer 0",
+                "max_width": 600,
+                "min_height": 12,
+                "min_width": 12,
+                "no_export": false,
+                "obj_args": null,
+                "obj_name": "text_006",
+                "obj_state": 3,
+                "obj_type": "text",
+                "position_x": 873.0,
+                "position_y": 424.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": true,
+                "value": "Failing the  GE or LE tests means this row isn't smooth",
+                "width": 12
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "text_006",
+            "osc_methods": [],
+            "properties": {},
+            "type": "text",
+            "value": "Failing the  GE or LE tests means this row isn't smooth"
+        },
+        "44": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "clickchange": false,
+                "debug": false,
+                "default": "",
+                "display_type": "text",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 12,
+                "is_export": false,
+                "layername": "Layer 0",
+                "max_width": 600,
+                "min_height": 12,
+                "min_width": 12,
+                "no_export": false,
+                "obj_args": null,
+                "obj_name": "text_007",
+                "obj_state": 3,
+                "obj_type": "text",
+                "position_x": 877.0,
+                "position_y": 510.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": true,
+                "value": "After the list is processed, bang out the<br>\nresult of the smoothness test",
+                "width": 12
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "text_007",
+            "osc_methods": [],
+            "properties": {},
+            "type": "text",
+            "value": "After the list is processed, bang out the<br>\nresult of the smoothness test"
+        },
+        "45": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "clickchange": false,
+                "debug": false,
+                "default": "",
+                "display_type": "text",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 37.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "max_width": 600,
+                "min_height": 12,
+                "min_width": 12,
+                "no_export": false,
+                "obj_args": null,
+                "obj_name": "text_008",
+                "obj_state": 3,
+                "obj_type": "text",
+                "position_x": 380.0,
+                "position_y": 26.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": true,
+                "value": "batch mode sends one line<br>\nat a time from the input data",
+                "width": 188.0
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "text_008",
+            "osc_methods": [],
+            "properties": {},
+            "type": "text",
+            "value": "batch mode sends one line<br>\nat a time from the input data"
+        },
+        "46": {
+            "connections": [
+                [
+                    [
+                        47,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 20,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": null,
+                "obj_name": "processor_030",
+                "obj_state": 3,
+                "obj_type": "loadbang",
+                "position_x": 97.0,
+                "position_y": 284.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_030",
+            "osc_methods": [],
+            "properties": {},
+            "type": "loadbang"
+        },
+        "47": {
+            "connections": [
+                [
+                    [
+                        10,
+                        1
+                    ],
+                    [
+                        12,
+                        1
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "debug": false,
+                "display_type": "message",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 12,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 25,
+                "no_export": false,
+                "obj_args": "0",
+                "obj_name": "message_011",
+                "obj_state": 3,
+                "obj_type": "message",
+                "position_x": 92.0,
+                "position_y": 320.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": true,
+                "width": 25
+            },
+            "initargs": "0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "message_011",
+            "osc_methods": [],
+            "properties": {},
+            "type": "message"
+        },
+        "48": {
+            "connections": [
+                [
+                    [
+                        9,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 20,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": null,
+                "obj_name": "processor_034",
+                "obj_state": 3,
+                "obj_type": "list",
+                "position_x": 331.0,
+                "position_y": 348.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_034",
+            "osc_methods": [],
+            "properties": {},
+            "type": "list"
+        },
+        "5": {
+            "connections": [
+                [
+                    [
+                        6,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 20,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": "2",
+                "obj_name": "processor_005",
+                "obj_state": 3,
+                "obj_type": "trigger",
+                "position_x": 311.0,
+                "position_y": 187.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": "2",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_005",
+            "osc_methods": [],
+            "properties": {},
+            "type": "trigger"
+        },
+        "6": {
+            "connections": [
+                [
+                    [
+                        7,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 20,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": null,
+                "obj_name": "processor_007",
+                "obj_state": 3,
+                "obj_type": "sort",
+                "position_x": 311.0,
+                "position_y": 223.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_007",
+            "osc_methods": [],
+            "properties": {},
+            "type": "sort"
+        },
+        "7": {
+            "connections": [
+                [
+                    [
+                        33,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        8,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 20,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": null,
+                "obj_name": "processor_006",
+                "obj_state": 3,
+                "obj_type": "==:",
+                "position_x": 312.0,
+                "position_y": 263.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_006",
+            "osc_methods": [],
+            "properties": {},
+            "type": "==:"
+        },
+        "8": {
+            "connections": [
+                [
+                    [
+                        48,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 20,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": null,
+                "obj_name": "processor_009",
+                "obj_state": 3,
+                "obj_type": "reversed",
+                "position_x": 331.0,
+                "position_y": 302.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_009",
+            "osc_methods": [],
+            "properties": {},
+            "type": "reversed"
+        },
+        "9": {
+            "connections": [
+                [
+                    [
+                        33,
+                        0
+                    ]
+                ],
+                []
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 20,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": null,
+                "obj_name": "processor_010",
+                "obj_state": 3,
+                "obj_type": "==:",
+                "position_x": 331.0,
+                "position_y": 396.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_010",
+            "osc_methods": [],
+            "properties": {},
+            "type": "==:"
+        }
+    },
+    "scopes": {
+        "__patch__": {
+            "message_001": 11,
+            "message_002": 14,
+            "message_004": 17,
+            "message_005": 19,
+            "message_007": 26,
+            "message_008": 27,
+            "message_009": 30,
+            "message_010": 31,
+            "message_011": 47,
+            "patch": 0,
+            "processor_001": 2,
+            "processor_002": 1,
+            "processor_003": 3,
+            "processor_004": 4,
+            "processor_005": 5,
+            "processor_006": 7,
+            "processor_007": 6,
+            "processor_009": 8,
+            "processor_010": 9,
+            "processor_011": 10,
+            "processor_012": 12,
+            "processor_013": 13,
+            "processor_014": 15,
+            "processor_015": 20,
+            "processor_016": 28,
+            "processor_017": 16,
+            "processor_019": 18,
+            "processor_020": 21,
+            "processor_021": 22,
+            "processor_022": 24,
+            "processor_023": 23,
+            "processor_024": 25,
+            "processor_025": 29,
+            "processor_028": 36,
+            "processor_029": 37,
+            "processor_030": 46,
+            "processor_034": 48,
+            "recvvia_001": 32,
+            "recvvia_002": 35,
+            "self": 0,
+            "sendvia_001": 33,
+            "sendvia_002": 34,
+            "text_001": 38,
+            "text_002": 39,
+            "text_003": 40,
+            "text_004": 41,
+            "text_005": 42,
+            "text_006": 43,
+            "text_007": 44,
+            "text_008": 45
+        }
+    },
+    "type": "aoc24_02_a"
+}

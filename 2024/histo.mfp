@@ -1,0 +1,414 @@
+{
+    "gui_params": {
+        "display_type": "patch",
+        "export_h": null,
+        "export_w": null,
+        "export_x": null,
+        "export_y": null,
+        "height": 20,
+        "layers": [
+            [
+                "Layer 0",
+                "__patch__"
+            ]
+        ],
+        "name": "histo",
+        "width": 0
+    },
+    "hot_inlets": [
+        0
+    ],
+    "objects": {
+        "35": {
+            "connections": [
+                [
+                    [
+                        45,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 21.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": "0",
+                "obj_name": "processor_028",
+                "obj_state": 3,
+                "obj_type": "inlet",
+                "position_x": 280.0,
+                "position_y": 118.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 57.0
+            },
+            "initargs": "0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_028",
+            "osc_methods": [],
+            "properties": {},
+            "type": "inlet"
+        },
+        "36": {
+            "connections": [
+                [
+                    [
+                        46,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 21.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": "1",
+                "obj_name": "processor_029",
+                "obj_state": 3,
+                "obj_type": "inlet",
+                "position_x": 429.0,
+                "position_y": 118.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 57.0
+            },
+            "initargs": "1",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_029",
+            "osc_methods": [],
+            "properties": {},
+            "type": "inlet"
+        },
+        "39": {
+            "connections": [
+                [
+                    [
+                        43,
+                        2
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 21.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": "1",
+                "obj_name": "processor_032",
+                "obj_state": 3,
+                "obj_type": "+",
+                "position_x": 355.0,
+                "position_y": 300.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 29.0
+            },
+            "initargs": "1",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_032",
+            "osc_methods": [],
+            "properties": {},
+            "type": "+"
+        },
+        "40": {
+            "connections": [
+                [
+                    [
+                        39,
+                        0
+                    ]
+                ],
+                []
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 21.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": "default=0",
+                "obj_name": "processor_031",
+                "obj_state": 3,
+                "obj_type": "get",
+                "position_x": 355.0,
+                "position_y": 254.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 99.0
+            },
+            "initargs": "default=0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_031",
+            "osc_methods": [],
+            "properties": {},
+            "type": "get"
+        },
+        "43": {
+            "connections": [
+                [
+                    [
+                        44,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 21.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": null,
+                "obj_name": "processor_034",
+                "obj_state": 3,
+                "obj_type": "set!",
+                "position_x": 329.0,
+                "position_y": 343.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 36.0
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_034",
+            "osc_methods": [],
+            "properties": {},
+            "type": "set!"
+        },
+        "44": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 21.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": "0",
+                "obj_name": "processor_035",
+                "obj_state": 3,
+                "obj_type": "outlet",
+                "position_x": 329.0,
+                "position_y": 389.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 50.0
+            },
+            "initargs": "0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_035",
+            "osc_methods": [],
+            "properties": {},
+            "type": "outlet"
+        },
+        "45": {
+            "connections": [
+                [
+                    [
+                        43,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        40,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 21.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": "2",
+                "obj_name": "processor_030",
+                "obj_state": 3,
+                "obj_type": "trigger",
+                "position_x": 280.0,
+                "position_y": 164.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 71.0
+            },
+            "initargs": "2",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_030",
+            "osc_methods": [],
+            "properties": {},
+            "type": "trigger"
+        },
+        "46": {
+            "connections": [
+                [
+                    [
+                        43,
+                        1
+                    ]
+                ],
+                [
+                    [
+                        40,
+                        1
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "debug": false,
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 21.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "min_height": 12,
+                "min_width": 20,
+                "no_export": false,
+                "obj_args": "2",
+                "obj_name": "processor_033",
+                "obj_state": 3,
+                "obj_type": "trigger",
+                "position_x": 429.0,
+                "position_y": 164.0,
+                "position_z": 0,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 71.0
+            },
+            "initargs": "2",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_033",
+            "osc_methods": [],
+            "properties": {},
+            "type": "trigger"
+        }
+    },
+    "scopes": {
+        "__patch__": {
+            "patch": 34,
+            "processor_028": 35,
+            "processor_029": 36,
+            "processor_030": 45,
+            "processor_031": 40,
+            "processor_032": 39,
+            "processor_033": 46,
+            "processor_034": 43,
+            "processor_035": 44,
+            "self": 34
+        }
+    },
+    "type": "histo"
+}
